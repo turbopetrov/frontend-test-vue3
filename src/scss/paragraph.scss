@@ -1,0 +1,29 @@
+%paragraph {
+  margin: 0;
+  padding: 0;
+  color: $grey;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+.paragraph_lg {
+  font-size: 2em;
+  line-height: 100%;
+  @extend %paragraph;
+}
+.paragraph_md {
+  font-size: 1.25em;
+  line-height: 100%;
+  @extend %paragraph;
+}
+.paragraph_sm {
+  font-size: 1em;
+  line-height: 100%;
+  @extend %paragraph;
+}
+.paragraph_xs {
+  font-size: 0.9em;
+  line-height: 200%;
+  @extend %paragraph;
+}
